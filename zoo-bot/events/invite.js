@@ -17,7 +17,7 @@ module.exports = {
         if (!guildConfig[guild.id]) {
             guildConfig[guild.id] = {
                 guildName: guild.name,
-                logChannelId: "",  // You can set this later
+                logChannelId: "",  // set this later
                 roleIds: [],
                 log_options: {
                     locations: {
